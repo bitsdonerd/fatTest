@@ -1,0 +1,43 @@
+body {
+  background-color: #e9f0ee;
+  font: normal 15pt Arial;
+}
+header {
+  color: rgb(0, 0, 0);
+  padding: 1em;
+  text-align: center;
+  font-style: calibri;
+  border-radius: 5px;
+}
+
+section {
+  margin: auto;
+  padding: 1em;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgb(56, 55, 55);
+}
+
+section img {
+  width: 50%; /* Faz a imagem ocupar toda a largura */
+  height: 50%; /* Ocupa toda a altura do contêiner */
+  object-fit: cover; /* Faz a imagem cobrir a área sem distorcer */
+  object-position: center; /* Centraliza a imagem */
+  border-radius: 10px;
+}
+div {
+  text-align: center;
+  padding: 10px;
+}
+
+footer {
+  background-color: #333333;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
